@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Bai1">
+
+   <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:weightSum="10"
+       tools:context=".MainActivity_Bai1">
+
+       <EditText
+           android:id="@+id/txtX"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_weight="1"
+           android:layout_height="0dp">
+       </EditText>
+       <EditText
+           android:id="@+id/txtY"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_weight="1"
+           android:layout_height="0dp">
+       </EditText>
+       <TextView
+       android:id="@+id/txtResult"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:layout_height="0dp"
+       android:text="@string/result">
+       </TextView>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:orientation="horizontal"
+           android:weightSum="5"
+           android:layout_weight="1">
+           <Button
+               android:id="@+id/btnPlus"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="@string/plus"
+               android:layout_height="match_parent"
+               tools:ignore="NestedWeights" />
+           <Button
+               android:id="@+id/btnMinus"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="@string/minus"
+               android:layout_height="match_parent"
+               tools:ignore="NestedWeights" />
+           <Button
+               android:id="@+id/btnMultiplication"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="@string/multiplication"
+               android:layout_height="match_parent"
+               tools:ignore="NestedWeights" />
+           <Button
+               android:id="@+id/btnDivision"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="@string/division"
+               android:layout_height="match_parent"
+               tools:ignore="NestedWeights" />
+           <Button
+               android:id="@+id/btnPercent"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:text="@string/percent"
+               android:layout_height="match_parent"
+               tools:ignore="NestedWeights" />
+       </LinearLayout>
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Basic Calculator</string>
+    <string name="result">Kết Quả</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="percent">%</string>
+
+
+</resources>
