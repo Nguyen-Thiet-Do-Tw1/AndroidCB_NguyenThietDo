@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Staff</string>
+    <string name="txt_name">Wu Kong</string>
+    <string name="txt_phone1">(072) 555-1234</string>
+    <string name="txt_title_mobile">Mobile</string>
+    <string name="txt_phone2">(072) 555-6789</string>
+    <string name="txt_email">Wukong@DiscipleOfSugerTank.com</string>
+    <string name="txt_title_mail">Gmail</string>
+
+</resources>
